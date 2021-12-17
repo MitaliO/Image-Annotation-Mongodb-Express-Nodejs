@@ -36,3 +36,5 @@ You can view all annotations by sending a get api request on annotations or by g
 
 Code includes apis to update and delete annotations as well
 
+For now, image is initialized to a static value. To try this with a different image, update src in img tag on line 34 in index.html
+
