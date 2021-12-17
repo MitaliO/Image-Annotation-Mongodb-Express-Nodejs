@@ -2,11 +2,14 @@
 Manually annotate images and store in the database to create specialized datasets for training ML Models
 
 ## Install node and mongodb(ignore if already installed)
+```
 brew install node
-brew install mongodb
+brew tap mongodb/brew
+brew install mongodb-community
 
+```
 ## Start mongodb service
-brew services start mongodb
+brew services start mongodb-community
 
 ## Clone repository
 
@@ -18,5 +21,6 @@ cd Image-Annotation-Mongodb-Express-Nodejs
 ## Install all nodejs dependencies(package.json)
 ```
 npm install
+npm run devStart
 ```
 ## Go to localhost:3000
