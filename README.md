@@ -6,10 +6,11 @@ Manually annotate images and store in the database to create specialized dataset
 brew install node
 brew tap mongodb/brew
 brew install mongodb-community
-
 ```
 ## Start mongodb service
+```
 brew services start mongodb-community
+```
 
 ## Clone repository
 
