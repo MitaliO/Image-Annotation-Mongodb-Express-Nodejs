@@ -1,0 +1,28 @@
+GET http://localhost:3000/annotations
+
+###
+
+DELETE http://localhost:3000/annotations/61bbc8258bf24bbd4aa7cf40
+
+###
+POST  http://localhost:3000/annotations
+Content-Type: application/json
+
+{
+    "label": "chair",
+    "x": 32,
+    "y": 32,
+    "width": 201,
+    "height": 100
+
+}
+
+###
+PATCH http://localhost:3000/annotations/61bbccebbe26b869c0bfdbdd
+Content-Type: application/json
+
+{
+    "label": "chair updated",
+    "x":400
+}
+
